@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="resultadoAluno"></h1>
+    </div>
+
+    <script>
+      // === compara tipo e valor
+      // == compara valor
+      // =  recebe valor
+      // != valor diferente
+      // !== valor e tipo diferente
+      // > maior
+      // < menor
+      // >= maior ou igual
+      // <= menor ou igual
+
+      let alunoAprovado = true;
+      let elementoResultado = document.getElementById("resultadoAluno");
+
+      if (alunoAprovado) {
+        elementoResultado.textContent = "Aluno aprovado";
+
+        elementoResultado.style.color = "green";
+      } else {
+        elementoResultado.textContent = "Aluno reprovado";
+
+        elementoResultado.style.color = "red";
+      }
+    </script>
+  </body>
+</html>

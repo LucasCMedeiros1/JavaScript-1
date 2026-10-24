@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let pesoPessoa = 90;
+      let alturaPessoa = 1.68;
+      let calculoImc;
+
+      calculoImc = pesoPessoa / (alturaPessoa * alturaPessoa);
+
+      if (calculoImc < 18.5) {
+        document.write("Abaixo do peso");
+      } else if (calculoImc <= 24.9) {
+        document.write("peso normal");
+      } else if (calculoImc <= 29.9) {
+        document.write("Sobrepeso");
+      } else if (calculoImc <= 34.9) {
+        document.write("Obesidade Grau I");
+      } else if (calculoImc <= 39.9) {
+        document.write("Obesidade Grau II");
+      } else {
+        document.write("Obesidade Grau III");
+      }
+    </script>
+  </body>
+</html>
